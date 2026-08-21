@@ -19,7 +19,7 @@ Salva tudo num SQLite local (`~/.conta_mes/gastos.db`). Nada de servidor, login 
 ## Instalação
 
 ```bash
-git clone https://github.com/SEU_USUARIO/conta-mes.git
+git clone https://github.com/Gabriel-smile/conta-mes.git
 cd conta-mes
 python -m venv .venv
 
