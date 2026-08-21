@@ -1,0 +1,2 @@
+# só precisa disso pra rodar; pytest é opcional (dev)
+pytest>=7.4,<9

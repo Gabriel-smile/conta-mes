@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "conta-mes"
+version = "0.1.0"
+description = "CLI simples pra anotar gastos do mês"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest>=7.4,<9"]
+
+[project.scripts]
+conta-mes = "conta_mes.cli:main"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
